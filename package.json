@@ -1,0 +1,64 @@
+{
+  "_from": "bn-plus",
+  "_inBundle": false,
+  "_integrity": "sha512-BoSmDsDctmkt1gF+hyTa8/pJSs9Y1hl2mVmVhAe95CwjYV5ypw39DHuvJcKmW21+dJ64aruLW2k0x0q/VFIIMA==",
+  "_location": "/bn-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bn-plus",
+    "name": "bn-plus",
+    "escapedName": "bn-plus",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bn-plus/-/bn-plus-1.0.0.tgz",
+  "_shasum": "35001138be293d0a304d321343528eeaafb2ad44",
+  "_spec": "bn-plus",
+  "_where": "E:\\新建文件夹\\jingtum-lib",
+  "browser": {
+    "buffer": false
+  },
+  "bugs": {
+    "url": "https://github.com/wudanjs/bn-plus.js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Big number implementation in pure javascript and Maximum support to 9999999999999900",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "semistandard": "^7.0.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/wudanjs/bn-plus.js",
+  "keywords": [
+    "BN",
+    "BigNum",
+    "Big number",
+    "Modulo",
+    "Montgomery"
+  ],
+  "license": "MIT",
+  "main": "lib/bn.js",
+  "name": "bn-plus.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wudanjs/bn-plus.js.git"
+  },
+  "scripts": {
+    "lint": "semistandard",
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha --reporter=spec test/*-test.js"
+  },
+  "version": "1.0.0",
+  "author": "wudanjs"
+}
